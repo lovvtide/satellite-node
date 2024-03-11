@@ -1,0 +1,30 @@
+{
+  "name": "satellite-node",
+  "version": "0.0.1",
+  "description": "satellite-node-instance is a project that runs as a node application anywhere, i.e. it's just a nodejs app that can run on your laptop or on a VPS in a datacenter, it doesn't matter",
+  "main": "index.js",
+  "scripts": {
+    "rebuild": "./node_modules/.bin/electron-rebuild --version 28.2.0"
+  },
+  "keywords": [
+    "nostr"
+  ],
+  "author": {
+    "name": "Stuart Bowman",
+    "email": "sbowman@satellite.earth"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^9.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nostr-tools": "^2.1.4",
+    "process-streams": "^1.0.1",
+    "simple-zstd": "^1.4.2",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^3.2.9"
+  }
+}
